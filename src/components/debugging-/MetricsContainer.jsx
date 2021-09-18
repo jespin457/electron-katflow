@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom'
 import DebugCard from './DebuggingCard.jsx';
 
-class DebuggingContainer extends Component {
+class MetricsContainer extends Component {
   constructor(props) {
     super(props)
   }
@@ -23,10 +23,10 @@ class DebuggingContainer extends Component {
 
     return (
       <div id="debug-container">
-        {cardsToRender}
+        {/* {cardsToRender} */}
       </div>
     );
   };
 }
 
-export default DebuggingContainer;
+export default MetricsContainer;

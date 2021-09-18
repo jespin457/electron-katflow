@@ -6,7 +6,7 @@ import NavBar from './components/NavBar.jsx';
 import VisContainer from './components/visualization/VisContainer.jsx';
 import MainContainer from './components/main/MainContainer.jsx';
 import OptionsContainer from './components/options/OptionsContainer.jsx';
-import DebuggingContainer from './components/debugging-/DebuggingContainer.jsx';
+import MetricsContainer from './components/debugging-/MetricsContainer.jsx';
 
 import '.././styles.scss';
 
@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/vis">
               <VisContainer/>
             </Route>
-            <Route exact path="/debug">
+            <Route exact path="/metrics">
               <DebuggingContainer/>
             </Route>
             <Router exact path="/options">
